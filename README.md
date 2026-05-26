@@ -11,6 +11,30 @@ npm run dev
 
 Open the local URL printed by Vite, usually `http://127.0.0.1:5173`.
 
+## Build
+
+```bash
+npm run build
+```
+
+The production build is created in `dist/`.
+
+## Deploy to GitHub Pages
+
+This project is configured for the GitHub Pages URL:
+
+```text
+https://alexpopov03.github.io/product-catalog
+```
+
+To deploy manually:
+
+```bash
+npm run deploy
+```
+
+That command builds the app and publishes the `dist/` folder to the `gh-pages` branch. In the GitHub repository settings, set Pages to deploy from the `gh-pages` branch.
+
 ## Implemented
 
 - Product fetch with loading and error states.
